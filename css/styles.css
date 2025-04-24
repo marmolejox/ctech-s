@@ -1,4 +1,5 @@
 @import url('../assets/fonts/fonts.css');
+@import url(../css/components/navbar.css);
 
 :root {
 
@@ -7,6 +8,18 @@
     --font-mstecs-bold: 'Segoe UI Bold', sans-serif;
 
 }
+
+/* Elimina márgenes y padding por defecto del navegador */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Opcional: Asegura que todos los elementos hereden el box-sizing */
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
 
 body{
     font-family: var(--font-ctecs-primary);
