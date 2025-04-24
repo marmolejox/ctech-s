@@ -1,0 +1,31 @@
+/* 
+    Archivo CSS para la definición de @font-face 
+    Bahnschrift, Segoe UI, Segoe UI Bold.
+    23/04/2025
+    lgutierrez@gmail.com
+
+*/
+
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../fonts/webfonts/bahnschrift.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/webfonts/segoeui.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url('../fonts/webfonts/segoeuib.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

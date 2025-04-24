@@ -1,0 +1,18 @@
+:root{
+    
+    /*Colores Empresariales*/
+    /* CTECH-S */
+    --color-red-ctechs: #E24336;
+    --color-orange-ctechs: #FA9300;
+    --color-blue-ctechs: #0066DB;
+    --color-gray-ctechs: #474747;
+    --color-white-ctechs: #EEEEEE;
+    --color-black-both: #000000;
+
+    /* MSTECS */
+    --color-yellow-mstecs: #FFC800;
+    --color-blue-mstecs: #00B1ED;
+    --color-red-mstecs: #FF0005;
+    --color-green-mstecs: #7FC70B;
+    --color-gray-mstecs: #E5E5E5;
+}
