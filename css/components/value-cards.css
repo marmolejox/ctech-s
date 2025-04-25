@@ -1,0 +1,81 @@
+@import url('../utilities/variables.css');
+
+/* Estilos para el contenedor de cards */
+.cards-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 40px 0;
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    min-width: max-content;
+}
+
+/* Estilos para las cards */
+.card {
+    width: 380px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.card-content {
+    padding: 50px;
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.card p {
+    font-size: 1.5rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Card destacada */
+.card.active {
+    background-color: var(--color-blue-ctechs);
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card.active h3,
+.card.active p {
+    color: #ffffff;
+}
+
+/* Para permitir desplazamiento horizontal en dispositivos móviles */
+@media (max-width: 1200px) {
+    .cards-wrapper {
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+    
+    .cards-container::-webkit-scrollbar {
+        height: 6px;
+    }
+    
+    .cards-container::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+    
+    .cards-container::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 10px;
+    }
+}

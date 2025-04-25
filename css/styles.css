@@ -4,6 +4,8 @@
 @import url('./components/hero.css');
 @import url('./components/whoweare.css');
 @import url('./components/ourvalue.css');
+@import url('./components/value-cards.css');
+@import url('./components/features.css');
 
 :root {
 

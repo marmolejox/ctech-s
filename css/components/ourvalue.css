@@ -1,3 +1,5 @@
+@import url('../utilities/variables.css');
+
 .normal-text{
     font-weight: normal;
     font-size: 1.5rem;
@@ -15,7 +17,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 50px;
     width: 100%;
 }
 
@@ -27,7 +28,7 @@
 
 .divider {
     height: 6px;
-    background-color: #0056b3; /* Color azul para las líneas */
+    background-color: var(--color-blue-ctechs); /* Color azul para las líneas */
     border-radius: 3px;
 }
 

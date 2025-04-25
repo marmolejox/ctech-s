@@ -58,3 +58,7 @@
     height: 40px;
     width: auto;
 }
+
+#we-are {
+    scroll-margin-top: 500px; /* Ajusta según la altura de tu navbar */
+  }

@@ -1,0 +1,33 @@
+/* Estilos para las características (features) */
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+    margin: 0;
+}
