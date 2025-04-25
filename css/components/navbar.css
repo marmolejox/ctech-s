@@ -42,3 +42,7 @@
     font-size: 1rem;
     padding: 3rem 3rem 0.5rem 0.5rem; /* Ajustado para estar ligeramente abajo a la izquierda */
 }
+
+.nav-link:hover{
+    background-color: #424242;
+}

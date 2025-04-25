@@ -1,0 +1,50 @@
+.footer {
+    background-color: var(--color-gray-navbar);
+    color: white;
+    padding: 30px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.logo-container {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.social-media {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.address-container {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.address {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.address:not(:last-child) {
+    border-right: 2px solid #3498db;
+}
+
+.country {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.street {
+    font-size: 16px;
+}
