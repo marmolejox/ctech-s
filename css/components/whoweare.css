@@ -1,0 +1,60 @@
+@import url('../utilities/variables.css');
+
+.who-we-are {
+    padding: 50px 0;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blue-text{
+    color: var(--color-blue-ctechs);
+}
+
+.bold-text{
+    font-family: var(--font-mstecs-bold);
+}
+
+.black-text{
+    color: var(--color-black-both);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.who-we-are-container {
+    display: flex;
+    align-items: center;
+}
+
+.background-image {
+    width: 30%;
+    height: auto;
+    display: block;
+}
+
+.content-container {
+    width: 60%;
+    padding-left: 120px;
+    text-align: right;
+}
+
+.section-description {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.min-partners {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.partner-logo {
+    height: 40px;
+    width: auto;
+}

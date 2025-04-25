@@ -1,0 +1,55 @@
+.normal-text{
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.our-value-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/* Estilos para el encabezado con divisores y título */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.dividers-container {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.divider {
+    height: 6px;
+    background-color: #0056b3; /* Color azul para las líneas */
+    border-radius: 3px;
+}
+
+.divider-1 {
+    width: 50%; /* La más larga ocupa el 50% del contenedor de divisores */
+    margin-right: 2%;
+}
+
+.divider-2 {
+    width: 30%; /* Tamaño medio ocupa el 30% del contenedor de divisores */
+    margin-right: 2%;
+}
+
+.divider-3 {
+    width: 16%; /* La más corta ocupa el 16% del contenedor de divisores */
+}
+
+.section-title-blue {
+    font-size: 3rem;
+    line-height: 0.9;
+    text-align: right;
+    font-weight: 700;
+    width: 20%; /* Da al título suficiente espacio para que esté alineado con los divisores */
+    margin-bottom: -8px; /* Ajusta la alineación vertical para que esté en línea con los divisores */
+}

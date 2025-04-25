@@ -2,6 +2,8 @@
 @import url('../css/components/navbar.css');
 @import url('../css/components/footer.css');
 @import url('./components/hero.css');
+@import url('./components/whoweare.css');
+@import url('./components/ourvalue.css');
 
 :root {
 
@@ -25,12 +27,4 @@ body {
 
 body{
     font-family: var(--font-ctecs-primary);
-}
-
-h2{
-    font-family: var(--font-mstecs-primary);
-}
-
-h3{
-    font-family: var(--font-mstecs-bold);
 }
