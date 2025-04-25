@@ -1,6 +1,7 @@
 @import url('../assets/fonts/fonts.css');
 @import url('../css/components/navbar.css');
 @import url('../css/components/footer.css');
+@import url('./components/hero.css');
 
 :root {
 

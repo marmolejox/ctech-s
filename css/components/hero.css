@@ -1,0 +1,104 @@
+/* Estilos del Hero */
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la pantalla */
+    overflow: hidden;
+    cursor: grab;
+}
+
+.hero-container.grabbing {
+    cursor: grabbing;
+}
+
+.hero-slides-wrapper {
+    display: flex;
+    height: 100%;
+    transition: transform 0.4s ease-out;
+}
+
+.hero-slide {
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio */
+}
+
+/* Textos superpuestos */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    pointer-events: none; /* Para que no interfiera con el arrastre */
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #0066cc; /* Color azul */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-subtitle {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero-description {
+    font-size: 2.4rem;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo específico para el segundo slide */
+.slide-two .hero-title {
+    margin-bottom: 0;
+}
+
+.slide-two .hero-and {
+    font-size: 1.8rem;
+    color: #000;
+    margin: 5px 0;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+/* Controles de navegación */
+.hero-nav {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    z-index: 10;
+}
+
+.hero-dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-dot.active {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.hero-dot:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}

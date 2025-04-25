@@ -1,3 +1,5 @@
+@import url('../utilities/variables.css');
+
 .footer {
     background-color: var(--color-gray-navbar);
     color: white;
@@ -36,7 +38,7 @@
 }
 
 .address:not(:last-child) {
-    border-right: 2px solid #3498db;
+    border-right: 3px solid var(--color-blue-ctechs);
 }
 
 .country {

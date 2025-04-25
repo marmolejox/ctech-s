@@ -1,9 +1,15 @@
 @import url("../utilities/variables.css");
 
- /* Estilos para el navbar con dropdowns */
- .navbar {
-    background-color: #ffffff; /* Usando el valor directamente en lugar de la variable */
+   /* Estilos para el navbar con posición fija */
+   .navbar {
+    background-color: #ffffff;
     padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que la navbar esté por encima de otros elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para separar visualmente */
 }
 
 .navbar-container {
@@ -41,7 +47,7 @@
 .nav-link {
     color: #ffffff;
     text-decoration: none;
-    background-color: var(--color-gray-navbar);/* Color gris para navbar */
+    background-color: var(--color-gray-navbar); /* Color gris para navbar */
     display: inline-block;
     font-size: 1rem;
     padding: 3rem 3rem 0.5rem 0.5rem;
@@ -82,7 +88,7 @@
 }
 
 .dropdown-logo img {
-    width: 80px;
+    width: 100px;
     height: 80px;
     object-fit: contain;
 }
