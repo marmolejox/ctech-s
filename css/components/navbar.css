@@ -1,14 +1,15 @@
 @import url("../utilities/variables.css");
 
-.navbar {
-    background-color: var(--color-white-ctechs);
+ /* Estilos para el navbar con dropdowns */
+ .navbar {
+    background-color: #ffffff; /* Usando el valor directamente en lugar de la variable */
     padding: 1rem 0;
 }
 
 .navbar-container {
     display: flex;
-    justify-content:space-between;
-     align-items: center;
+    justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -25,7 +26,6 @@
     padding: 1rem;
 }
 
-
 .nav-links {
     display: flex;
     list-style: none;
@@ -34,15 +34,60 @@
     padding: 0;
 }
 
+.nav-item {
+    position: relative;
+}
+
 .nav-link {
     color: #ffffff;
     text-decoration: none;
-    background-color: var(--color-gray-navbar);
+    background-color: var(--color-gray-navbar);/* Color gris para navbar */
     display: inline-block;
     font-size: 1rem;
-    padding: 3rem 3rem 0.5rem 0.5rem; /* Ajustado para estar ligeramente abajo a la izquierda */
+    padding: 3rem 3rem 0.5rem 0.5rem;
+    white-space: nowrap;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     background-color: #424242;
+}
+
+/* Estilos para dropdowns */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-gray-navbar);
+    min-width: 200px;
+    max-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.dropdown-content a:hover {
+    background-color: #424242;
+}
+
+/* Logo dentro del dropdown */
+.dropdown-logo {
+    padding: 10px;
+    text-align: center;
+}
+
+.dropdown-logo img {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Mostrar dropdown al hacer hover */
+.nav-item:hover .dropdown-content {
+    display: block;
 }

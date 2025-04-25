@@ -17,7 +17,6 @@
 
 <body>
 
-    <!-- Bloque: Navbar -->
     <header class="navbar">
         <div class="navbar-container">
             <!-- Logo (izquierda) -->
@@ -28,16 +27,34 @@
             <!-- Botones (derecha) -->
             <nav class="navbar-menu">
                 <ul class="nav-links">
-                    <li><a href="#we-are" class="nav-link">We are</a></li>
-                    <li><a href="/partner.html" class="nav-link">Partner</a></li>
-                    <li><a href="#services" class="nav-link">Our services</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                    <li><a href="#language" class="nav-link">Language</a></li>
+                    <li class="nav-item"><a href="#we-are" class="nav-link">We are</a></li>
+                    <li class="nav-item"><a href="/partner.html" class="nav-link">Partner</a></li>
+                    
+                    <!-- Dropdown para Our services -->
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Our services</a>
+                        <div class="dropdown-content">
+                            <a href="#">Servicio de licenciamiento de Microsoft</a>
+                            <a href="#"><div class="dropdown-logo">
+                                <img src="./assets/img/logos/logo-placeholder.svg" alt="Logotipo de servicio">
+                            </div></a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    
+                    <!-- Dropdown para Language -->
+                    <li class="nav-item">
+                        <a href="#language" class="nav-link">Language</a>
+                        <div class="dropdown-content">
+                            <a href="#">English</a>
+                            <a href="#">Spanish</a>
+                        </div>
+                    </li>
                 </ul>
             </nav>
-
+        </div>
     </header>
-
 
     <!-- Bloque: Footer -->
     <footer class="footer">
