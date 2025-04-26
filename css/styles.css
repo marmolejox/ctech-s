@@ -7,6 +7,8 @@
 @import url('./components/value-cards.css');
 @import url('./components/features.css');
 @import url('./components/contact-us.css');
+@import url('./components/spacer.css');
+@import url('./components/phraph.css');
 
 :root {
 
@@ -22,6 +24,11 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
+
+  main {
+    padding-top: 1rem;
+}
+
   
   /* Opcional: Asegura que todos los elementos hereden el box-sizing */
   *, *::before, *::after {
