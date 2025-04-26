@@ -1,3 +1,5 @@
+@import url('../utilities/variables.css');
+
 /* Estilos para las características (features) */
 .features-container {
     display: flex;
@@ -26,8 +28,12 @@
 }
 
 .feature p {
-    font-weight: 500;
     font-size: 1rem;
     color: #000;
     margin: 0;
+    padding-top: 2.5rem;
+}
+
+.color-text-blue {
+    color: var(--color-blue-ctechs);
 }
