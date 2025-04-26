@@ -54,3 +54,25 @@
     width: 20%; /* Da al título suficiente espacio para que esté alineado con los divisores */
     margin-bottom: -8px; /* Ajusta la alineación vertical para que esté en línea con los divisores */
 }
+
+.divider-1-parcer {
+    width: 50%; /* La más larga ocupa el 50% del contenedor de divisores */
+    margin-right: 2%;
+}
+
+.divider-2-parcer {
+    width: 30%; /* Tamaño medio ocupa el 30% del contenedor de divisores */
+    margin-right: 2%;
+}
+
+.divider-3-parcer {
+    width: 12%; /* La más corta ocupa el 16% del contenedor de divisores */
+}
+
+.section-title-parcer {
+    font-size: 3rem;
+    text-align: right;
+    font-weight: 700;
+    width: 20%; /* Da al título suficiente espacio para que esté alineado con los divisores */
+    margin-bottom: -8px; /* Ajusta la alineación vertical para que esté en línea con los divisores */
+}

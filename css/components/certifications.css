@@ -1,0 +1,56 @@
+.logo-card-section {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.logo-card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px; /* Aumenté el gap a 80px como separador visual */
+}
+
+.main-logo img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease; /* Agregamos animación suave */
+}
+
+/* Efecto hover en el logo principal */
+.main-logo img:hover {
+    transform: scale(1.1); /* Hace zoom suave al pasar el mouse */
+}
+
+.logos-card {
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación para el hover */
+}
+
+/* Efecto hover en la card */
+.logos-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logos-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.logo-item img {
+    width: 120px;
+    height: auto;
+    transition: transform 0.3s ease; /* Animación para hover */
+}
+
+/* Efecto hover en cada logo pequeño */
+.logo-item img:hover {
+    transform: scale(1.1);
+}

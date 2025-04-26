@@ -9,7 +9,8 @@
 @import url('./components/contact-us.css');
 @import url('./components/spacer.css');
 @import url('./components/phraph.css');
-
+@import url('./components/partners-logos.css');
+@import url('./components/certifications.css');
 :root {
 
     --font-ctecs-primary: 'Bahnschrift', sans-serif;

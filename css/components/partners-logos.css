@@ -1,0 +1,16 @@
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0; /* espacio arriba y abajo */
+}
+
+.partners-logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem; /* espacio entre los logos */
+}
+
+.partner-logo img {
+    display: block;
+}
