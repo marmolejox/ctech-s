@@ -1,0 +1,59 @@
+@import url('../utilities/variables.css');
+
+.contactus-container {
+    background-color: #c4c4c4; /* Gris claro */
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contactus-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-title-contact {
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Por si en pantallas pequeñas quieres que se acomode */
+}
+
+.contact-form input,
+.contact-form button {
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    flex: 1;
+    min-width: 200px;
+}
+
+.contact-form input {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.contact-form input::placeholder {
+    color: #000;
+    opacity: 0.5;
+}
+
+.contact-form button {
+    background-color: var(--color-blue-ctechs);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
